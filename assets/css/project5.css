@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+.container{
+    width: 100%;
+    max-width:1180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    background-image: url(../img/bgc.jpeg);
+    height:100vh;
+    opacity: rgba(0,0,0,0,0.8);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.logo i{
+    color: rgb(168, 134, 41);
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.nav{
+    color: white;
+    float: right;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 20px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.nav ul li:hover{
+    background-color: gray;
+}
+
+.content{
+    text-align: center;
+    margin-top: 150px;
+    
+}
+.content h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 46px;
+}
+.content p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+button{
+    background-color: rgb(22, 97, 22);
+    color: white;
+    border:none;
+    margin: 30px 10px;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.section-blog {
+    display: flex;
+    margin-top: 30px;
+}
+.blog-inner img{
+    height: 400px;
+    width: 400px;
+    margin-right: 80px;
+    background-size: cover;
+}
+.blog-inner h2{
+    color: black;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.blog-inner p{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.blog-inner h3{
+    padding-bottom: 35px;
+}
+.blog-inner h3 i{
+    color: aquamarine;
+    margin-right: 20px;
+    font-size: 25px;
+}
+section{
+    background-color: rgb(197, 194, 194);
+}
+section{
+    margin-top: 40px;
+}
+.title{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+}
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content:space-around;
+   align-items: center;
+   text-align: center;
+}
+.card-icons{
+    font-size: 30px;
+    color: rgb(89, 197, 89);
+}
+.card-contain{
+   
+}
+
+
+
+
